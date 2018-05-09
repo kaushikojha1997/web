@@ -1,0 +1,81 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.row1{
+	background: #333;
+	color: #d2d2d2;
+}
+.row2{
+	background: #222;
+	color: #c2c2c2;
+}
+nav ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: orange;
+}
+section {
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+	color: #444;
+	background: #fff;
+}
+
+#gallery .fig img{
+	width: 100%;
+	min-height: 180px;
+	border: 3px solid #aaa;
+}
+.more{
+	display: inline-block;
+	float: right;
+}
+ 
+#gallery .fig{
+	box-sizing: border-box;
+	margin: 0;
+	margin-right: 5%;
+	padding: 0;
+	
+}
+
+#info img{
+	width: 100%;
+	max-height: 250px;
+	border: 5px solid #dddddd;
+	margin: 4% 0 3% 2%;
+}
+
+footer{
+	font-size: 15px;
+}
+footer h3{
+	text-align: center;
+	text-transform: uppercase;
+}
+footer li{
+	outline: none;
+	border-bottom: 1px solid #bbb;
+}
+
+#copy div:nth-last-of-type(1){
+	text-align: right;
+}
+#copy a{
+	color: #c2c2c2;
+}
+@media only screen and (max-width: 650px){
+
+	#gallery .fig{margin-right: 0;}
+	#info img{margin: 0;}
+
+	#copy div:last-child p{text-align: left;}
+
+}
