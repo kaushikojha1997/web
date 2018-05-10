@@ -1,0 +1,29 @@
+.sec{
+  margin: 0;
+  text-align:center;
+  padding:70px 0;
+}
+.sec-light{
+  background-color:#f4f4f4;
+  color:#111;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.sec-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+.sec-img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background:url(./../img/Image2.jpg);
+  background-attachment: fixed;
+  min-width: 500px;
+}
+@media only screen and (max-width: 650px){
+.sec-img{
+  background-attachment: scroll;
+}
+}

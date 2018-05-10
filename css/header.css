@@ -6,10 +6,11 @@ float: right;
 }
 /*header*/
 
-#header{
-	padding: 2em;
+#header {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
 }
-
 #header a{
 	text-decoration: none;
 	color: inherit;
@@ -26,12 +27,10 @@ float: right;
 
 /*navigation*/
 #header nav{
-	display:block;
-	margin: 20px;
+	margin: 0.8%;
 	margin-right: 0;
-	color:#C0BAB6;
-	background-color:#232323;
 	overflow: hidden;
+	text-align: center;
 
 }
 #header nav li{
@@ -40,14 +39,18 @@ float: right;
 	text-transform:uppercase;
 }
 #header nav li a{
-	color:#C0BAB6; 
-	background-color:#232323;
+	padding: 2%;
 }
 #header nav li a:hover{
 	color:orange; 
-	background-color:#232323;
+
 }
 
+ .active{
+	color:aqua !important; 
+	font-size: 2em;
+	border-bottom: 1px solid aqua;
+}
 
 @media only screen and (max-width: 868px){
 	#ham{
@@ -67,4 +70,9 @@ float: right;
 		border-bottom: 1px solid #ddd;
 	}
 	
+}
+ .active{
+	color:aqua !important; 
+	font-size: 2em;
+	border-bottom: 1px solid aqua;
 }
