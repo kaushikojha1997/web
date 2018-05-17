@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tower Of Hanoi</title>
+	<link rel="stylesheet" type="text/css" href="css/toh.css">
+
+</head>
+<body>
+	<h1>Tower Of Hanoi</h1>
+	<div id="stripe">
+		<button id="reset">Restart</button>
+		<span class="moves"></span>
+		<button class="mode selected" value="3">Easy</button>
+		<button class="mode" value="4">Medium</button>
+		<button class="mode" value="5">Hard</button>
+	</div>
+	<div id="container">
+		<div id="towers">
+			<div class="t" value="0">
+				<div class="base"></div>
+				<div class="line line1"> 
+					<span id="disc5"></span>
+					<span id="disc4"></span>
+				</div> 
+			</div>
+
+			<div class="t" value="1">
+				<div class="base"></div>
+				<div class="line line2"> 
+					<span id="disc5"></span>
+					<span id="disc4"></span>
+				</div> 
+			</div>
+
+			<div class="t" value="2">
+				<div class="base"></div>
+				<div class="line line3"> 
+					<span id="disc5"></span>
+					<span id="disc4"></span>
+				</div> 
+			</div>
+			
+		
+	</div>
+		<script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="./js/toh.js"></script>
+
+
+</body>
+</html>
