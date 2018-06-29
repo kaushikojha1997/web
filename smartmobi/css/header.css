@@ -1,0 +1,52 @@
+nav{
+	background: #2c3d63;
+	overflow: hidden;
+	padding: 0.1rem;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+#logo{
+width:80%;
+height: auto; 
+}
+.nav-link ,.nav-btn {
+	top:50%;
+}
+.nav-link span{
+	color: #fff;
+	padding: 0.8em 0.8em 0.3em;
+	display: inline-block;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.nav-link span a{
+	color: #fff;
+	text-decoration: none;
+}
+.nav-btn *{
+	/*display: inline-block;*/
+	margin: 12px 5px;
+	vertical-align: middle;
+}
+.active{
+	border-bottom: 2px solid #cc3333;
+}
+
+input[name='signup']{
+	background: #e74c3c;
+}
+input[name='login']{
+	background: #46b18b;
+}
+.btn{
+	border-radius: 5px;
+	padding: 5px;
+	min-width: 80px;
+	min-height: 30px;
+	outline: none;
+	color: #fff;
+	border: none;
+}
+

@@ -1,0 +1,42 @@
+.collection{
+	background: #e6e9f1;
+	overflow: auto;
+	padding-bottom: 1.2em;
+}
+.mobicollec{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.collection h1{
+	margin-top: 0;
+	padding-top: 0.5em;
+	color: #3b5081;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 45px;
+	letter-spacing: 0.4em;
+}
+.collecmobi{
+	background: #bec8e1;
+	border-radius: 10px;
+	padding: 0.8em;
+	overflow: auto;
+	min-height: 150px
+}
+.collecmobi .collecimg{
+	height: 100%;
+}
+
+.collecmobi .collecimg img{
+	width: 100%;
+	border-radius: 8px;
+}
+.collecmobi h2{
+	margin: 0;
+}
+.collecmobi a{
+	text-decoration: none;
+	color: #3b5081;
+}
